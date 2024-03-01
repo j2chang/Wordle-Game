@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="edu.virginia.cs.gui.WordleController">
+    <VBox alignment="center" spacing="20.0">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </padding>
+    </VBox>
+    <GridPane hgap="10" vgap="10">
+        <padding>
+            <Insets left="40" top ="20"/>
+        </padding>
+        <StackPane fx:id="stackPane1" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <Rectangle fx:id = "Rectangle1" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label1" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane2" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Rectangle fx:id = "Rectangle2" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label2" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane3" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <Rectangle fx:id = "Rectangle3" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label3" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane4" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <Rectangle fx:id = "Rectangle4" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label4" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane5" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <Rectangle fx:id = "Rectangle5" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label5" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane6" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Rectangle fx:id = "Rectangle6" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label6" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane7" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Rectangle fx:id = "Rectangle7" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label7" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane8" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Rectangle fx:id = "Rectangle8" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label8" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane9" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Rectangle fx:id = "Rectangle9" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label9" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane10" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <Rectangle fx:id = "Rectangle10" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label10" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane11" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <Rectangle fx:id = "Rectangle11" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label11" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane12" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Rectangle fx:id = "Rectangle12" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label12" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane13" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Rectangle fx:id = "Rectangle13" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label13" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane14" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Rectangle fx:id = "Rectangle14" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label14" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane15" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Rectangle fx:id = "Rectangle15" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label15" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane16" GridPane.columnIndex="0" GridPane.rowIndex="3">
+            <Rectangle fx:id = "Rectangle16" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label16" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane17" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Rectangle fx:id = "Rectangle17" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label17" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane18" GridPane.columnIndex="2" GridPane.rowIndex="3">
+            <Rectangle fx:id = "Rectangle18" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label18" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane19" GridPane.columnIndex="3" GridPane.rowIndex="3">
+            <Rectangle fx:id = "Rectangle19" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label19" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane20" GridPane.columnIndex="4" GridPane.rowIndex="3">
+            <Rectangle fx:id = "Rectangle20" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label20" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane21" GridPane.columnIndex="0" GridPane.rowIndex="4">
+            <Rectangle fx:id = "Rectangle21" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label21" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane22" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Rectangle fx:id = "Rectangle22" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label22" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane23" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Rectangle fx:id = "Rectangle23" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label23" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane24" GridPane.columnIndex="3" GridPane.rowIndex="4">
+            <Rectangle fx:id = "Rectangle24" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label24" alignment="CENTER"/>
+        </StackPane>
+        <StackPane fx:id="stackPane25" GridPane.columnIndex="4" GridPane.rowIndex="4">
+            <Rectangle fx:id = "Rectangle25" width="136" height="100" fill="transparent" stroke="black"/>
+            <Label fx:id = "Label25" alignment="CENTER"/>
+        </StackPane>
+    </GridPane>
+    <GridPane hgap="10" vgap="30">
+    <padding>
+        <Insets left="130" top ="700"/>
+    </padding>
+        <Button text="A" onAction="#onButtonClick" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Button text="B" onAction="#onButtonClick" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <Button text="C" onAction="#onButtonClick" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        <Button text="D" onAction="#onButtonClick" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+        <Button text="E" onAction="#onButtonClick" GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+        <Button text="F" onAction="#onButtonClick" GridPane.columnIndex="5" GridPane.rowIndex="0"/>
+        <Button text="G" onAction="#onButtonClick" GridPane.columnIndex="6" GridPane.rowIndex="0"/>
+        <Button text="H" onAction="#onButtonClick" GridPane.columnIndex="7" GridPane.rowIndex="0"/>
+        <Button text="I" onAction="#onButtonClick" GridPane.columnIndex="8" GridPane.rowIndex="0"/>
+        <Button text="J" onAction="#onButtonClick" GridPane.columnIndex="9" GridPane.rowIndex="0"/>
+        <Button text="K" onAction="#onButtonClick" GridPane.columnIndex="10" GridPane.rowIndex="0"/>
+        <Button text="L" onAction="#onButtonClick" GridPane.columnIndex="11" GridPane.rowIndex="0"/>
+        <Button text="M" onAction="#onButtonClick" GridPane.columnIndex="12" GridPane.rowIndex="0"/>
+        <Button text="N" onAction="#onButtonClick" GridPane.columnIndex="13" GridPane.rowIndex="0"/>
+        <Button text="O" onAction="#onButtonClick" GridPane.columnIndex="14" GridPane.rowIndex="0"/>
+        <Button text="P" onAction="#onButtonClick" GridPane.columnIndex="15" GridPane.rowIndex="0"/>
+        <Button text="Q" onAction="#onButtonClick" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        <Button text="R" onAction="#onButtonClick" GridPane.columnIndex="3" GridPane.rowIndex="1"/>
+        <Button text="S" onAction="#onButtonClick" GridPane.columnIndex="4" GridPane.rowIndex="1"/>
+        <Button text="T" onAction="#onButtonClick" GridPane.columnIndex="5" GridPane.rowIndex="1"/>
+        <Button text="U" onAction="#onButtonClick" GridPane.columnIndex="6" GridPane.rowIndex="1"/>
+        <Button text="V" onAction="#onButtonClick" GridPane.columnIndex="7" GridPane.rowIndex="1"/>
+        <Button text="W" onAction="#onButtonClick" GridPane.columnIndex="8" GridPane.rowIndex="1"/>
+        <Button text="X" onAction="#onButtonClick" GridPane.columnIndex="9" GridPane.rowIndex="1"/>
+        <Button text="Y" onAction="#onButtonClick" GridPane.columnIndex="10" GridPane.rowIndex="1"/>
+        <Button text="Z" onAction="#onButtonClick" GridPane.columnIndex="11" GridPane.rowIndex="1"/>
+        <Button text="&#9166;" onAction="#submit" GridPane.columnIndex="12" GridPane.rowIndex="1"/>
+        <Button text="&#9003;" onAction="#backSpaceEvent" GridPane.columnIndex="13" GridPane.rowIndex="1"/>
+    </GridPane>
+    <VBox alignment="CENTER" spacing="25" layoutX="320" layoutY="800">
+        <Label fx:id="WorL" text="" visible="false"/>
+        <Label fx:id="playAgain" text="Would you like to play again?" visible="false"/>
+        <HBox spacing="10" alignment="CENTER">
+            <Button fx:id="yButton" onAction="#yes" text="Yes" visible="false" disable="true"/>
+            <Button fx:id="nButton" onAction="#no" text="No" visible="false" disable="true"/>
+        </HBox>
+    </VBox>
+
+</Group>
